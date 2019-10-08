@@ -18,9 +18,9 @@ public class SCC5_Spiro extends Application
 //************************************************************************************************************
     //those are the variables you should play with to get different results, have fun
 
-    private double R = rnd.nextInt(150);            //outer circle radius
-    private double r = rnd.nextInt(150);            //inner circle radius
-    private double O = rnd.nextInt(150);            //offset from the center of the inner circle
+    private double R = rnd.nextInt(150) + 1;            //outer circle radius
+    private double r = rnd.nextInt(150) + 1;            //inner circle radius
+    private double O = rnd.nextInt(150) + 1;            //offset from the center of the inner circle
     private double z = 1.5;                                 //zoom multiplier
     private String sgColor = "#ff0000";                     //color of the spirograph
 
